@@ -1,0 +1,109 @@
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: #b2b7ba;
+}
+nav a:hover {
+	color: white;
+}
+.bio {
+	padding-right: 2em;
+
+}
+.black {
+	color: black;
+}
+
+body {
+	background-color: #b2b7ba;
+}
+.contact {
+	order: -1;
+}
+
+.content {
+	background-color: #FFF;
+}
+header {
+	background-color: #fb9b2b;
+}
+h1, h2, h3 {
+	font-family: 'Share Tech', sans-serif;
+}
+h3 {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h2 {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #fb9b2b;
+}
+h2, h3 {
+	color: #fb9b2b;
+	font-weight: normal;
+}
+h1 {
+	font-size: 3em;
+	color: white;
+	margin: 0;
+	margin-top: .5em;
+}
+h4 {
+	margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+#headshot {
+	max-height: 150px;
+	border-radius: 50%;
+	border: 1px solid #fb9b2b;
+	padding: 5px;
+	order: 1;	
+}
+.header {
+	width: 90%;
+
+}
+.header, #aboutMe, #projects {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+i {
+	padding: 4px;
+}
+nav {
+	padding-bottom: .5em;
+}
+nav li, .personal-info li {
+	padding-right: .5em;
+}
+p {
+	margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin: 0 1em;
+}
+
+.projects {
+	padding-bottom: 2em;
+}
+p, ul {
+	font-family: 'Share', cursive;
+	font-size: 100%;
+}
+ul {
+	list-style: none;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+#skills, .personal-info {
+	margin: 0 2em;
+}
+#skills ul, .personal-info {
+	margin: 0 1em;
+}

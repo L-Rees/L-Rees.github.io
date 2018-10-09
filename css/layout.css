@@ -1,0 +1,49 @@
+
+#aboutMe {
+	grid-template-columns: 3fr 2fr 1fr;
+}
+
+.content{
+	width: 90%;
+	margin: auto;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2em;
+}
+header {
+	display: flex;
+	align-items: flex-end;
+}
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+nav ul {
+	display: flex;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-gap:1em;
+}
+.bio {
+	display: flex;
+	
+	
+}
+.personal-info {
+	display: flex;
+	flex-direction: column;
+}
