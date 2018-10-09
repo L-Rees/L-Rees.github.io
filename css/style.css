@@ -9,10 +9,7 @@ a:hover {
 nav a:hover {
 	color: white;
 }
-.bio {
-	padding-right: 2em;
 
-}
 .black {
 	color: black;
 }
@@ -101,12 +98,8 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-#skills, .personal-info {
-	margin: 0 .5em;
-}
-#skills ul, .personal-info {
-	margin: 0 1em;
-}
+
+
 img {
 	margin:  auto 0;
 }
