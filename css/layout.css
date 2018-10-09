@@ -1,10 +1,11 @@
+article {
+	display: flex;
 
-#aboutMe {
-	grid-template-columns: 3fr 2fr 1fr;
 }
 
 .content{
 	width: 90%;
+	max-width: 1000px;
 	margin: auto;
 }
 footer {
@@ -35,7 +36,7 @@ nav ul {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 2fr .5fr 1fr;
 	grid-gap:1em;
 }
 .bio {
@@ -46,4 +47,7 @@ nav ul {
 .personal-info {
 	display: flex;
 	flex-direction: column;
+}
+.projects article {
+	display: grid;
 }

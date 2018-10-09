@@ -61,7 +61,7 @@ h4 {
 	border-radius: 50%;
 	border: 1px solid #fb9b2b;
 	padding: 5px;
-	order: 1;	
+		
 }
 .header {
 	width: 90%;
@@ -102,8 +102,15 @@ ul {
     padding-inline-start: 0px;
 }
 #skills, .personal-info {
-	margin: 0 2em;
+	margin: 0 .5em;
 }
 #skills ul, .personal-info {
 	margin: 0 1em;
+}
+img {
+	margin:  auto 0;
+}
+.project-image {
+	max-height: 150px;
+
 }
