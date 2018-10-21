@@ -2,6 +2,9 @@ article {
 	display: flex;
 
 }
+#bio {
+	/* display: flex; */
+}
 
 .content{
 	width: 90%;
@@ -14,12 +17,20 @@ footer {
 	justify-content: center;
 	padding: 2em;
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr .5fr 1.2fr;
+	grid-gap: 1em;
+}
+
 header {
 	display: flex;
 	align-items: flex-end;
 }
-
-
+.image-container-container {
+	display: flex;
+	justify-content: center;
+}
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -27,21 +38,10 @@ nav {
 nav ul {
 	display: flex;
 }
-
 .projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 3em;
-	
-}
-.grid-container {
-	display: grid;
-	grid-template-columns: 2fr .5fr 1fr;
-	grid-gap: 1em;
-}
-.bio {
-	display: flex;
-	
 	
 }
 .personal-info {

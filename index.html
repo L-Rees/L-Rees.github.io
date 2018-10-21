@@ -30,13 +30,15 @@
 		<section id="aboutMe">	
 			<h2><i class="fa fa-plus"></i>About Me</h2>
 			<div class="grid-container">
-			<section id="bio">
-				<h3>Bio</h3>	
-				<article class="bio">
+			<section class="headshot">
 					<img src="images/LisaRees.jpg" id="headshot">
+			</section>
+			<section id="bio">
+				<h3>Bio</h3>
+				<article class="bio">
 					<p>I am a full-stack junior software developer skilled at logical analysis and passionate about problem-solving. I am a BYU Conservation Biology grad, and a student at We Can Code IT in Columbus, Ohio.</p>
 				</article>
-			</section>	
+			</section>
 			<section id="skills">
 				<h3>Skills</h3>
 				<ul>
@@ -63,41 +65,61 @@
 		<section id="projects">
 			<h2><i class="fa fa-plus"></i>Projects</h2>
 			<div class="projects">
-				<article>
+				<article class="project-article">
 					<h3>Virtual Pet Shelter</h3>
 					<a href="https://github.com/L-Rees/virtual-pets-run-amok"><i class="fa fa-github"></i>See it on Github</a>
-					<img src="images/pets.jpg" class="project-image">
-					<h4>Description</h4>
-					<p>Created a virtual pet shelter console app that simulates running a pet shelter with organic cats and dogs and robotic cats and dogs, and lets you care for their needs.</p>
-					<h4>Skills/Technologies</h4>
-					<p>Java, TDD</p>
+					<div class="image-container">
+						<img src="images/pets.jpg" class="project-image">
+						<button  class="btn ">Details</button>
+					</div>
+					<div class="hide">
+						<h4>Description</h4>
+						<p>Created a virtual pet shelter console app that simulates running a pet shelter with organic cats and dogs and robotic cats and dogs, and lets you care for their needs.</p>
+						<h4>Skills/Technologies</h4>
+						<p>Java, TDD</p>
+					</div>
 				</article>
-				<article>
+				<article class="project-article">
 					<h3>Virtual Unikitty</h3>
 					<a href="https://github.com/L-Rees/virtual-pet"><i class="fa fa-github"></i>See it on Github</a>
-					<img src="images/unikitty.jpg" class="project-image"><!-- screenshot of project -->
-					<h4>Description</h4>
-					<p>A little pet simulator for the console that lets you cater to UniKitty's whims.</p>
-					<h4>Skills/Technologies</h4>	
-					<p>Java, TDD</p>
+					<div class="image-container">
+						<img src="images/unikitty.jpg" class="project-image">
+						<button class="btn">Details</button>
+					</div >
+					<div class="hide">
+						<h4>Description</h4>
+						<p>A little pet simulator for the console that lets you cater to UniKitty's whims.</p>
+						<h4>Skills/Technologies</h4>	
+						<p>Java, TDD</p>
+					</div>
 				</article>	
-				<article>
+				<article class="project-article">
 					<h3>Book Review Site</h3>
 					<a href="https://github.com/L-Rees/book-reviews"><i class="fa fa-github"></i>See it on Github</a>
-					<img src="images/book-heart-love-6369.jpg" class="project-image">
-					<h4>Description</h4>
-					<p>Simple site with book reviews</p>
-					<h4>Skills/Technologies</h4>	
-					<p>Java, TDD, SpringMvc</p>
+					<div class="image-container">	
+						<img src="images/book-heart-love-6369.jpg" class="project-image">
+						<button class="btn">Details</button>
+					</div>
+					<div class="hide">
+						<h4>Description</h4>
+						<p>Simple site with book reviews</p>
+						<h4>Skills/Technologies</h4>	
+						<p>Java, TDD, SpringMvc</p>
+					</div>
 				</article>
-				<article>
+				<article class="project-article">
 					<h3>Word Counter</h3>
 					<a href="https://github.com/L-Rees/pyfiles/blob/master/wordcounter.py"><i class="fa fa-github"></i>See it on Github</a>
-					<img src="images/5-bar-black-1010973.jpg" class="project-image">
-					<h4>Description</h4>
-					<p>Run from the command line with a text file, it will generate a text file with word count statistics.</p>
-					<h4>Skills/Technologies</h4>	
-					<p>Python</p>
+					<div class="image-container">
+						<img src="images/5-bar-black-1010973.jpg" class="project-image">
+						<button class="btn">Details</button>
+					</div>
+					<div class="hide">
+						<h4>Description</h4>
+						<p>Run from the command line with a text file, it will generate a text file with word count statistics.</p>
+						<h4>Skills/Technologies</h4>	
+						<p>Python</p>
+					</div>
 				</article>
 			</div>
 		</section>
@@ -105,6 +127,6 @@
 	<footer>
 			<small>&copy; Lisa 2018</small>
 	</footer>
-
+<script src="function.js" ></script>
 </body>
 </html>

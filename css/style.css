@@ -54,7 +54,7 @@ h4 {
     margin-block-end: .5em;
 }
 #headshot {
-	max-height: 150px;
+	/* max-height: 150px; */
 	border-radius: 50%;
 	border: 1px solid #fb9b2b;
 	padding: 5px;
@@ -68,6 +68,11 @@ h4 {
 	padding-left: 2em;
 	padding-right: 2em;
 }
+.headshot {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
 i {
 	padding: 4px;
 }
@@ -80,8 +85,11 @@ li {
 p {
 	margin-block-start: 0em;
     margin-block-end: 1em;
-    margin: 0 1em;
+    /* margin: 0 1em; */
 }
+.hide{
+	display: none;
+};
 
 .projects {
 	padding-bottom: 2em;
@@ -100,10 +108,42 @@ ul {
 }
 
 
-img {
+/* img {
 	margin:  auto 0;
-}
-.project-image {
+
+} */
+/* .project-image {
 	max-height: 150px;
 
-}
+} */
+.image-container {
+	position: relative;
+	width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .image-container img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .image-container .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  .image-container .btn:hover {
+	background-color: black;
+  }
