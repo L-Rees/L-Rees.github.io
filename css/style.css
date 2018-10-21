@@ -79,6 +79,9 @@ i {
 nav {
 	padding-bottom: .5em;
 }
+.navLinks {
+	display: none;
+}
 li {
 	padding-right: .5em;
 }
@@ -135,8 +138,8 @@ ul {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	background-color: #555;
-	color: white;
+	background-color: #b2b7ba;
+	color: black;
 	font-size: 16px;
 	padding: 12px 24px;
 	border: none;
@@ -146,4 +149,18 @@ ul {
   
   .image-container .btn:hover {
 	background-color: black;
+	color: #b2b7ba;
+  }
+  .navButton {
+	background-color: #b2b7ba;
+	color: black;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  .navButton:hover{
+	  background-color: black;
+	  color: #b2b7ba;
   }
