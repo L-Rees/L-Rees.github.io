@@ -79,8 +79,11 @@ i {
 nav {
 	padding-bottom: .5em;
 }
+
 .navLinks {
 	display: none;
+	transition: ease-in-out;
+	transition-duration: 0.4s;
 }
 li {
 	padding-right: .5em;
@@ -151,7 +154,7 @@ ul {
 	background-color: black;
 	color: #b2b7ba;
   }
-  .navButton {
+  .navButton, #bioBtn {
 	background-color: #b2b7ba;
 	color: black;
 	font-size: 16px;
@@ -160,7 +163,87 @@ ul {
 	cursor: pointer;
 	border-radius: 5px;
   }
-  .navButton:hover{
+  .navButton:hover, #bioBtn:hover{
 	  background-color: black;
 	  color: #b2b7ba;
   }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+}
+@keyframes animatetop {
+	from {top: -300px; opacity: 0}
+	to {top: 0; opacity: 1}
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.text {
+  color: white;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  top:40%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
