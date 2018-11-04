@@ -51,3 +51,6 @@ nav ul {
 .projects article {
 	display: grid;
 }
+#reviews {
+	order: -2;
+}
