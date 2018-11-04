@@ -54,11 +54,16 @@ h4 {
     margin-block-end: .5em;
 }
 #headshot {
-	max-height: 150px;
+	/* max-height: 150px; */
 	border-radius: 50%;
 	border: 1px solid #fb9b2b;
 	padding: 5px;
 		
+}
+.headshot {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
 }
 .header {
 	width: 90%;
@@ -80,7 +85,7 @@ li {
 p {
 	margin-block-start: 0em;
     margin-block-end: 1em;
-    margin: 0 1em;
+    /* margin: 0 1em; */
 }
 
 .projects {
@@ -104,6 +109,9 @@ img {
 	margin:  auto 0;
 }
 .project-image {
-	max-height: 150px;
-
+	max-height: 200px;
+	margin: auto;
+	border-style: solid;
+	border-color: #b2b7ba;
+	padding: 2px;
 }

@@ -36,14 +36,14 @@ nav ul {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: 2fr .5fr 1fr;
+	grid-template-columns: 1fr 2fr .5fr 1.2fr;
 	grid-gap: 1em;
 }
-.bio {
+/* .bio {
 	display: flex;
 	
 	
-}
+} */
 .personal-info {
 	display: flex;
 	flex-direction: column;
