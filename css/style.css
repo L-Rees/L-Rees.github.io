@@ -32,26 +32,29 @@ h1, h2, h3 {
 }
 h3 {
 	margin-block-start: 0em;
-    margin-block-end: 0em;
+	margin-block-end: 0em;
+	font-size: 1.5em;
 }
 h2 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #fb9b2b;
+	font-size: 2.5em;
 }
 h2, h3 {
 	color: #fb9b2b;
 	font-weight: normal;
 }
 h1 {
-	font-size: 3em;
+	font-size: 4em;
 	color: white;
-	margin: 0;
-	margin-top: .5em;
+	margin: 0, .5em;
+	
 }
 h4 {
 	margin-block-start: .5em;
-    margin-block-end: .5em;
+	margin-block-end: .5em;
+	font-size: 1.3em;
 }
 #headshot {
 	/* max-height: 150px; */
@@ -93,7 +96,8 @@ p {
 }
 p, ul {
 	font-family: 'Share', cursive;
-	font-size: 100%;
+	font-size: large;
+	line-height: 1.618;
 }
 ul {
 	list-style: none;
@@ -107,11 +111,11 @@ ul {
 
 img {
 	margin:  auto 0;
+	
 }
 .project-image {
 	max-height: 200px;
-	margin: auto;
-	border-style: solid;
-	border-color: #b2b7ba;
-	padding: 2px;
+	margin: 1em auto;
+	border: 1px solid #fb9b2b;
+    padding: 5px;
 }

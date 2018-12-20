@@ -4,8 +4,6 @@ article {
 }
 
 .content{
-	width: 90%;
-	max-width: 1000px;
 	margin: auto;
 }
 footer {
@@ -36,7 +34,7 @@ nav ul {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 2fr .5fr 1.2fr;
+	grid-template-columns: 1fr 2fr 1fr ;
 	grid-gap: 1em;
 }
 /* .bio {
@@ -53,4 +51,12 @@ nav ul {
 }
 #reviews {
 	order: -2;
+}
+#prod {
+	order: -2;
+}
+#skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
